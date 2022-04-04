@@ -1,0 +1,26 @@
+.box-container{
+    display: grid;
+    grid-template-columns: 30% 60% 30%;
+    grid-template-rows: 50px 200px  50px;
+    grid-column-gap: 25px;
+    grid-row-gap: 25px;
+    text-align: center;
+}
+.box1{
+   background-color: red;
+  grid-column: 1/4;
+}
+.box2{
+   background-color: yellow;
+}
+.box3{
+   background-color: blue;
+   
+}
+.box4{
+   background-color: orange;
+}
+.box5{
+   background-color: rgb(41, 206, 41);
+    grid-column: 1/4;    
+}
